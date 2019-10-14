@@ -25,9 +25,9 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                
-                <ListView x:Name="Send_Click" Grid.Column="1">
-                    <ListViewItem Height="50" HorizontalAlignment="Left" >
+
+                <ListView x:Name="Send_Click" Grid.Column="1" SelectionChanged ="Send_Click_SelectionChanged">
+                    <ListViewItem Height="50" HorizontalAlignment="Left">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="Send" Width="30" Height="30" VerticalAlignment="Center"  Foreground="White"/>
                             <TextBlock Text="Отправить" Margin="10" VerticalAlignment="Center" Foreground="White"/>
