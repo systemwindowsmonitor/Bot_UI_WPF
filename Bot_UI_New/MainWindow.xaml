@@ -17,7 +17,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <materialDesign:ColorZone Mode="PrimaryMid" Grid.ColumnSpan="2" HorizontalAlignment="Stretch">
+        <materialDesign:ColorZone Mode="PrimaryMid" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Background="#FF2196F3">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="250"/>
@@ -61,16 +61,17 @@
                 <RowDefinition Height="326*"/>
             </Grid.RowDefinitions>
             <Grid Grid.Row="0" Background="GhostWhite">
-                <Image Source="Assets/logo.png"/>
+                <!--<Image Source="Assets/logo.png"/>-->
             </Grid>
             <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1">
                 <StackPanel x:Name="Menu" Margin="10"/>
             </ScrollViewer>
         </Grid>
 
-
-        <StackPanel x:Name="StackPanelMain" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch">
+        <Grid x:Name="StackPanelMain" Grid.Row="1" Grid.Column="1">
+            
+        </Grid>
         
-        </StackPanel>
+        <!--<StackPanel x:Name="StackPanelMain" Grid.Row="1" Grid.Column="1"/>-->
     </Grid>
 </Window>

@@ -25,7 +25,7 @@ namespace Diet_Center_Bot
         {
             if (client == null)
             {
-                client = new TelegramBotClient("987477165:AAGJmiDWuSgz-nkiZitBk8qE_PLTjTDUUN8");
+                client = new TelegramBotClient("909244872:AAGH6YmrYkmW5Ppm-yx-uQ6EQ--V2QAjRn4");
                 client.OnMessage += eventMessage;
                 client.OnCallbackQuery += eventCallBack;
                 db = new DbManager(System.IO.Directory.GetCurrentDirectory() + "\\DB.db");

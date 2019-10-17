@@ -34,12 +34,12 @@ namespace Bot_UI_New
 
         private void TextUser_TextChanged(object sender, TextChangedEventArgs e)
         {
-            text = this.TextUser.Text;
+            //text = this.TextUser.Text;
         }
 
         private void UserControl_Loaded(object sender, RoutedEventArgs e)
         {
-            TextUser.MaxHeight = TextUser.Height =  550;
+            //TextUser.MaxHeight = TextUser.Height =  550;
         }
     }
 }
