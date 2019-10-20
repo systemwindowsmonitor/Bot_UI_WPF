@@ -44,7 +44,7 @@ namespace Bot_UI_New
             menuSchedule.Add(new SubItem("Текст с геолокацией"));
             menuSchedule.Add(new SubItem("Текст с опросом Да/Нет"));
             menuSchedule.Add(new SubItem("Текст с ссылкой"));
-            menuSchedule.Add(new SubItem("Текст с картинкой"));
+            menuSchedule.Add(new SubItem("Текст с картинкой", new TexAndImage()));
             menuSchedule.Add(new SubItem("Простой текст", new UserControlText()));
             var item2 = new ItemMenu("Тексты", menuSchedule, PackIconKind.Text);
 
